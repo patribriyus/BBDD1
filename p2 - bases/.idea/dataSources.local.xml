@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@hendrix-oracle.cps.unizar.es" uuid="6b863ba6-9b39-43b6-b86f-907817e5b0c5">
+      <database-info product="Oracle" version="Oracle9i Enterprise Edition Release 9.0.1.3.0 - 64bit Production&#10;With the Partitioning option&#10;JServer Release 9.0.1.3.0 - Production" jdbc-version="11.1" driver-name="Oracle JDBC driver" driver-version="11.1.0.6.0-Production">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>A735576</user-name>
+      <introspection-schemas>*:A735576</introspection-schemas>
+    </data-source>
+    <data-source name="miniFlights@hendrix-mysql.cps.unizar.es [2]" uuid="3ca5e0b4-5f84-4733-a9dc-5f0492f045ba">
+      <database-info product="MySQL" version="5.5.34-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>a735576</user-name>
+      <introspection-schemas>*:miniFlights</introspection-schemas>
+    </data-source>
+  </component>
+</project>

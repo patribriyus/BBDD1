@@ -1,0 +1,107 @@
+1,Real Madrid,RMA,(Sociedad) Madrid Foot-Ball Club,Blancos Merengues Vikingos,1902,Madrid
+2,Barcelona,FCB,Foot-Ball Club Barcelona,Barça Azulgrana Blaugranas,1899,Barcelona
+3,At. Madrid,ATM,Athletic Club (Sucursal de Madrid),Colchoneros Indios Rojiblancos,1903,Madrid				
+4,Real Sociedad,RSO,Sociedad de Foot-Ball,La Real Erreala Realistas,1909,San Sebastián		
+5,Valencia,VCF,Valencia Foot-Ball Club,Che Blanquinegres Taronja,1919,Valencia
+6,Ath. Bilbao,ATH,Athletic Club,Los Leones,1898,Bilbao		
+7,Dptivo. Coruña,DEP,Club Deportivo de la Sala Calvet,Dépor Españolazos Herculinos,1906,La Coruña					
+8,Zaragoza,ZAR,Zaragoza Foot-Ball Club,Blanquillos Maños Leones,1932,Zaragoza		
+9,Villarreal,VIL,Club Deportivo Villarreal,Submarino Amarillo Groguets Amarillos,1923,Villarreal
+10,Sporting Gijón,RSG,Sporting Gijonés,Rojiblancos,1905,Gijón
+11,Sevilla,SEV,Sevilla Foot-Ball Club,Sevillistas Blanquirrojos,1905,Sevilla							
+12,Espanyol,ESP,Sociedad Española de Foot-Ball,Espanyolistas Blanquiazules,1900,Barcelona							
+13,Mallorca,MAL,(Sociedad) Alfonso XIII Foot-Ball Club,Barralets Bermellones Rojinegros,1916,Mallorca												
+14,Betis,RBB,España Balompié,Béticos Verdiblancos Heliopolitanos,1907,Sevilla							
+15,Osasuna,OSA,Club Atlético Osasuna,Rojillos,1920,Pamplona					
+16,Celta,RCC,Real Club Celta,Celtistas Celtiñas Celestes,1923,Vigo																											
+17,Las Palmas,LP,Unión Deportiva Las Palmas,La Unión Deportiva la UD,1949,Las Palmas de Gran Canaria									
+18,Málaga,MÁL,Club Atlético Malagueño,Malaguistas boquerones albiazules,1948,Málaga
+19,Tenerife,TEN,Sporting Club Tenerife,Tete Blanquiazules Chicharrero,1922,Tenerife								
+20,Hércules,HÉR,Hércules Foot-Ball Club,Herculanos Blanquiazules,1922,Alicante										
+21,Castellón,CDC,Castellón Foot-Ball Club,Centuriones Glorioso Inmortal,1922,Castellón									
+22,Valladolid,VLL,Real Valladolid Deportivo,Pucela pucelanos blanquivioletas,1928,Valladolid										
+23,Alavés,ALA,Club Deportivo Alavés,Babazorros El Glorioso Albiazules,1921,Vitoria-Gasteiz									
+24,Rac. Santander,RRC,Santander Racing Club,Racinguistas Verdiblancos Montañeses,1913,Santander									
+25,Getafe,GET,Getafe Club de Fútbol,Geta Azulones,1983,Madrid						
+26,Oviedo,RO,Real Oviedo Foot-Ball Club,Carbayones Azulones,1926,Oviedo								
+27,Levante,LEV,Levante Foot-Ball Club,Granotes azulgranas blaugranas,1909,Valencia								
+28,Granada,GCF,Club Recreativo Granada,Los Nazaríes El Graná,1931,Granada		
+29,Salamanca,SAL,Unión Deportiva Española,Salmantinos Charros,1923,Salamanca								
+30,Málaga (C.D.),CDM,Club Deportivo Malacitano,Malaguistas boquerones albiazules,1933,Málaga																			
+31,Logroñés,LOG,Club Deportivo Varea,Logroñés UDL,1967,Logroño					
+32,Albacete,ALB,Albacete Foot-Ball Association,Alba Queso Mecánico Blancos,1940,Albacete									
+33,Rayo Vallecano,RVM,Agrupación Deportiva El Rayo,Rayistas franjirrojos El Rayito,1924,Madrid											
+34,Elche,ELC,Elche Foot-Ball Club,Ilicitanos Franjiverdes,1923,Elche								
+35,Almería,ALM,Almería Club de Fútbol,Almería Indálicos Rojiblancos,1989,Almería								
+36,Rec. Huelva,RCR,Sociedad de Juego de Pelota,Decano Albiazules Recre,1889,Huelva										
+37,Burgos (Real),RBU,Real Burgos Club de Fútbol,Rojipardillos,1983,Burgos					
+38,Compostela,SDC,Sociedad Deportiva Campus Stellae,Compos Picheleiros Esedé,1962,Santiago de Compostela
+39,Éibar,EIB,Sociedad Deportiva Eibar,Armeros,1940,Eibar				
+40,Almería (A.D.),-,Almería Club de Fútbol,-,1971,Almería						
+41,Murcia,RMU,Levante Foot-Ball Club de Murcia,Pimentoneros Granas Rojiblancos,1908,Murcia											
+42,Burgos,BRG,Burgos Club de Fútbol,La Burgatti Burgaleses Blanquinegros,1994,Burgos			
+43,Cádiz,CÁD,Cádiz Foot-Ball Club,Submarino Amarillo,1910,Cádiz						
+44,Sabadell,SAB,Centre d'Esports Sabadell,Arlequinados Saballuts Laneros,1903,Sabadell											
+45,Numancia,NUM,Club Deportivo Numancia,Numantinos Rojillos,1945,Soria									
+46,Extremadura,EXT,Club de Fútbol Extremadura,Azulgranas Valientes,1924,Almendralejo									
+47,Leganés,LEG,Club Deportivo Leganés,Pepineros,1928,Leganés						
+48,Mérida,MAD,Mérida Unión Deportiva,Romanos Pecholatas,1912,Mérida								
+49,Lleida,LLE,Club Lleida Esportiu,Blaus Ilerdes,1939,Lleida							
+50,Córdoba,CÓR,Club Deportivo San Álvaro,Blanquiverdes Cordobesistas Califas,1954,Córdoba										
+51,Gimn. Tarragona,GIM,Club Gimnástico de Tarragona,Tarraconenses Granas,1914,Tarragona									
+52,Xerez,XER,Jerez Club Deportivo,Xerecistas Azulinos Bodegueros,1947,Jerez								
+53,Real Madrid B,RMC,Agrupación Deportiva Plus Ultra,Castilla,1930,Madrid									
+54,Girona,GIR,Gerona Foot-Ball Club,Blanquivermells Gironistas Albirrojos,1930,Girona								
+55,Ath. Bilbao B,BIL,Club Atlético de Bilbao Amateur,Los cachorros,1964,Bilbao																				
+56,At. Madrid B,ATL,Club Atlético Getafe,Rojiblancos Colchoneros,1963,Madrid								
+57,Barcelona B,FCB,Barcelona Atlético,Barça Atlètic Barça B,1970,Barcelona							
+58,Figueres,UEF,Unión Sportiva Figueras,La Unió,1919,Figueres					
+59,Granada 74,-,Club de fútbol Ciudad de Murcia,El 74,1999,Motril		
+60,Alcorcón,ADA,Agrupación Deportiva Alcorcón,Alcor Alfareros Fiebre Amarilla,1971,Alcorcón											
+61,Toledo,CDT,Club Deportivo Toledo,Verdes,1928,Toledo					
+62,Sestao,SES,Sestao River Club,Verdinegros,1996,Sestao						
+63,Barakaldo,BAR,Baracaldo Foot-Ball Club,Peñarol fabriles Baraka,1917,Barakaldo										
+64,Jaén,JAE,Sociedad Olímpica Jiennense,Blancos Lagartos,1922,Jaén									
+65,Cartagena,CAR,Cartagonova Fútbol Club,Efesé Aladroques Albinegros,1995,Cartagena								
+66,Palencia,PAL,Club de Fútbol Palencia,Los Morados,1975,Palencia								
+67,Lorca,LFC,Lorca Fútbol Club,El brócoli mecánico,2003,Lorca							
+68,Orihuela,ORI,Orihuela Club de Fútbol,Escorpiones Amarillos,1994,Orihuela							
+69,Badajoz,BAD,Club Deportivo Badajoz 1905,Lobos Club Deportivo,1905,Badajoz								
+70,Sant Andreu,UES,Unió Esportiva Sant Andreu,Grocs Quadribarrats,1907,Barcelona									
+71,Huesca,SDH,Sociedad Deportiva Huesca,Oscenses Azulgranas,1960,Huesca									
+72,Ponferradina,PON,Sociedad Deportiva Ponferradina,Deportiva Ponfe,1922,Ponferrada										
+73,Terrassa,TER,Terrassa Olímpica 2010,Egarenses,1906,Terrassa						
+74,Marbella,MFC,Marbella Fútbol Club,-,1997,Marbella				
+75,Villarreal B,VIL,Villarreal Club de Fútbol SAD B,Mini-submarino amarillo,1999,Villarreal									
+76,Palamós,PCF,Palamós Sociedad Cultural,-,1898,Palamós						
+77,Cartagena F.C.,CFC,Cartagena Foot-Ball Club,Efesé,1919,Cartagena									
+78,Mirandés,MIR,Club Deportivo Mirandés,Rojillos Jabatos,1927,Miranda de Ebro							
+79,Lugo,CDL,Club Deportivo Lugo,Luguiño Albivermellos,1953,Lugo							
+80,Sevilla B,SEV,Club Deportivo Puerto,Sevillistas Franjirrojos Nervionenses,1958,Sevilla									
+81,Ferrol,RAC,Racing Ferrol Foot-Ball Club,Diablos Verdes El equipo departamental,1917,Ferrol										
+82,Avilés,AVI,Avilés Sport Club,Realavilesinos Blanquiazules,1903,Avilés									
+83,Llagostera,UEL,Unió Esportiva Llagostera-Costa Brava,-,1947,Llagostera									
+84,Ejido,EJI,Club Polideportivo Ejido,Poli Equipo Celeste Los Pitufos,1969,El Ejido											
+85,Calvo Sotelo,PUE,Club Deportivo Calvo Sotelo,-,1948,Puertollano							
+86,Reus,REU,Club Reus Deportiu,Ganxets,1909,Reus						
+87,Linares,LIN,Asociación Deportiva Linares,Azulillos Mineros,2009,Linares							
+88,Ourense,CDO,Club Deportivo Orense,Rojillos,1952,Ourense						
+89,Écija,ÉCI,Écija Football Club,Azulinos,1939,Écija					
+90,Málaga B,ATL,Sociedad Deportiva Malagueña,La Academia Boquerones Chanquetes,1990,Málaga																		
+91,Algeciras,ALG,Algeciras Club de Fútbol,-,1912,Algeciras							
+92,Guadalajara,CDG,Club Deportivo Guadalajara,Deportivo Guadalajara Guada Dépor,1947,Guadalajara										
+93,Pontevedra,PTV,Pontevedra Club de Fútbol,Pontevedriña Ponte Granates,1941,Pontevedra										
+94,Alzira,UDA,Unión Deportiva Alzira,Tigres del Xúquer alziristas,1946,Alzira								
+95,Ensidesa,ENS,Club Deportivo Ensidesa,-,1956,Asturias					
+96,Zaragoza B,ARA,R. Zaragoza Club Deportivo Aficionados,Blanquillos Maños,1965,Zaragoza										
+97,Cult. Leonesa,CDL,Cultural y Deportiva Leonesa,La Cultu,1923,León								
+98,Mallorca B,MAL,Real Club Deportivo Mallorca,Barralets Bermellones Rojinegros,1983,Palma de Mallorca											
+99,UCAM Murcia,UCA,Uni. Católica San Antonio de Murcia C.F,Universitarios,2009,Sangonera la Verde										
+100,Alicante,ALI,Alicante Foot-Ball Club,Celestes Moros,1918,Alicante				
+101,Ceuta,CEU,Agrupación Deportiva Ceuta Fútbol Club,Los Caballas,1996,Ceuta									
+102,Mollerussa,MOL,Club de Futbol Joventut Mollerussa,-,1930,Lérida								
+103,Univ.Las Palmas,-,Univ. de Las Palmas de Gran Canaria C.F,La U Uni,1994,Las Palmas							
+104,Valencia B,VAL,Club Deportivo Mestalla,Mestalleta,1919,Valencia						
+105,Alcoyano,ALC,Club Deportivo Alcoyano,Deportivo,1929,Alcoy							
+106,Real Unión,UNI,Real Unión Club de Irún,Irundarras Txuribeltzak Fronterizos,1915,Irún						
+107,Vecindario,VEC,Unión Deportiva Vecindario,Ratas,1962,Vecindario						

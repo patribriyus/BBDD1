@@ -1,0 +1,14 @@
+vicious.hendrix-oracle.cps.unizar.es = 
+(DESCRIPTION =
+ (ADDRESS_LIST =
+  (ADDRESS = 
+   (COMMUNITY = tcp.world)
+   (PROTOCOL = TCP)
+   (HOST = hendrix-oracle.cps.unizar.es)
+   (PORT = 1521)
+  )
+ )
+ (CONNECT_DATA =
+  (SID = vicious)
+ )
+)

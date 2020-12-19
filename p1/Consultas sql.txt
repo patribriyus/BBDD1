@@ -1,0 +1,35 @@
+1) Equipos que han estado en primera división y que no han ganado ninguna liga.
+SELECT eq.nombre
+FROM Equipo eq, Participantes part, Clasificacion clasif
+WHERE part.equipo = eq.codigo AND part.liga = clasif.liga AND clasif.equipo = eq.codigo 
+	AND part.division = 1 AND clasif.posicion < 1 
+
+2) Equipos que más veces han ascendido a primera división y posteriormente han descendido.
+SELECT DISTINCT eq.nombre
+FROM Equipo eq, Participantes part,
+WHERE 
+
+3) Temporada(s) en la(s) que ha habido menos diferencia en goles entre el equipo más goleador y el menos goleador.
+SELECT
+FROM
+WHERE
+
+4)
+SELECT
+FROM
+WHERE
+
+5)
+SELECT
+FROM
+WHERE
+
+6)
+SELECT
+FROM
+WHERE
+
+7)
+SELECT
+FROM
+WHERE

@@ -1,0 +1,58 @@
+CONSULTAS:
+1. Listado de aeropuertos en Alaska o California en los que no opera la compañía con más aviones. 
+2. Lista de los aviones (con su destino inicial y final) que se hayan retrasado por causas de seguridad y posteriormente desviado.
+3. Lista de los retrasos debido al clima que ha tenido el avión más joven de la compañía que más cancelaciones ha tenido.
+
+TRIGGERS:
+1. La ciudad de origen y destino de un vuelo no pueden ser las mismas.
+2. La ciudad de destino de un desvio no puede ser la misma que la original del vuelo.
+3. Si un vuelo se cancela de repente, su hora de aterrizaje será NULL.
+4. Un vuelo que está en la lista de cancelados, su hora de aterrizaje siempre será NULL.
+
+1.
+CREATE OR REPLACE TRIGGER Orig_Dest
+BEFORE INSERT OR UPDATE ON Vuelo FOR EACH ROW
+begin
+	IF :NEW.origen=:NEW.destino THEN
+		APPLICATION_ERROR(-2000, 'La ciudad origen, coincide con la de destino');
+	END IF;
+end;
+
+2.
+CREATE OR REPLACE TRIGGER Desvio_dest
+BEFORE INSERT OR UPDATE ON Desvio
+declare
+	dest VARCHAR(20)
+begin
+	select vuelo.destino INTO dest
+	from vuelo
+	where vuelo.num_vuelo=:new.num_vuelo
+	IF :NEW.destino=dest THEN
+		APPLICATION_ERROR(-2001,'El destino '||:new.destino ||' de la desviación ya existe como destino inicial');
+	END IF;
+end;
+
+3.
+CREATE OR REPLACE TRIGGER Mod_vuelo_cancel
+BEFORE UPDATE ON Cancelacion FOR EACH ROW
+declare
+	comp VARCHAR(10)
+	fech DATE
+BEGIN
+	select vuelo.compania INTO comp,vuelo.fecha INTO fech
+	from vuelo
+	where vuelo.num_vuelo=:new.num_vuelo
+	IF NOT EXISTS (select * FROM Cancelacion WHERE num_vuelo=:new.num_vuelo) THEN
+		UPDATE Vuelo SET hora_def_aterrizaje='NULL' WHERE num_vuelo=:new.num_vuelo
+		INSERT INTO Cancelacion VALUES(comp,fech,:new.num_vuelo,:new.razon)
+	END IF;
+END;
+
+4.
+CREATE OR REPLACE TRIGGER Vuelo_cancel
+AFTER UPDATE ON Vuelo FOR EACH ROW
+BEGIN
+	IF :new.hora_def_aterrizaje!='NULL' THEN
+		UPDATE Vuelo SET hora_def_aterrizaje='NULL' WHERE num_vuelo=:new.num_vuelo
+	END IF;
+END;

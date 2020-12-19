@@ -1,0 +1,3 @@
+- Si una pelicula es remake, no puede ser ni secuela ni precuela, y viceversa en todos los casos.
+- Si una persona en una pelicula/serie es actor, no puede ser al mismo tiempo otra profesion y viceversa.
+- Una pelicula no puede ser secuela o precuela o remake de si misma.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="oracle_cpp" Database="">
+  <Project Name="oracle_connect" Path="oracle_connect/oracle_connect.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="oracle_connect" ConfigName="Debug"/>
+      <Project Name="oracle_connect" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="oracle_connect" ConfigName="Release"/>
+      <Project Name="oracle_connect" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

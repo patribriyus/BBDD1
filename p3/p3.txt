@@ -1,0 +1,1 @@
+Consideramos que un vuelo solamente va a tener un tipo de incidencia, y en el caso de que tenga mas pues mala suerte

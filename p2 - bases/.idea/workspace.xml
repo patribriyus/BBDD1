@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52ca58c3-4289-4aa6-9161-22407ea133dc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <option name="in-editor" value="true" />
+    <colors>
+      <entry key="A735576/6b863ba6-9b39-43b6-b86f-907817e5b0c5:SCHEMA" value="Rose" />
+    </colors>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@hendrix-oracle.cps.unizar.es" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@hendrix-oracle.cps.unizar.es" type="feb32156:DbDataSourceImpl" />
+        <item name="A735576: schema" type="ac44c5e0:OracleImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="miniFlights@hendrix-mysql.cps.unizar.es [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b863ba6-9b39-43b6-b86f-907817e5b0c5/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AEROPUERTO" pinned="false" current-in-tab="false">
+        <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/AEROPUERTO">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6b863ba6-9b39-43b6-b86f-907817e5b0c5/console_4.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6b863ba6-9b39-43b6-b86f-907817e5b0c5/console_3.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dfcf1cd7-e498-4ea7-8090-7fe6775f2b98/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6b863ba6-9b39-43b6-b86f-907817e5b0c5/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.toSaveIncludeLibraries" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Oracle&#10;Amazon Redshift" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vuelos.csv" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" anchor="bottom" id="Database Console" order="6" sideWeight="0.46778917" visible="true" weight="0.68839425" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5322108" side_tool="true" weight="0.2359736" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.18448023" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="SQL Generator" order="7" visible="true" weight="0.17329094" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.32750398" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/SERIE_TV" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PELICULA" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PELICULA" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PELICULA" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/SERIE_TV" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/SERIE_TV" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/SERIE_TV" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/LIGA" />
+    <entry file="file://$PROJECT_DIR$/../PARTICIPA_2018_05_15_19_41_12.txt" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/SERIE_TV" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/SAGA" />
+    <entry file="file://$PROJECT_DIR$/../SAGA_2018_05_15_20_09_05.txt" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PELICULA" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CAPITULO" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PARTICIPA_DEFINITIVO_COMPLETO" />
+    <entry file="file://$PROJECT_DIR$/../PARTICIPA_DEFINITIVO_COMPLETO_2018_05_15_20_19_34.txt" />
+    <entry file="file://$PROJECT_DIR$/../GENERO_2018_05_15_20_35_55.txt" />
+    <entry file="file://$PROJECT_DIR$/../PARTICIPA_2018_05_15_21_05_12.txt" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PRODUCTO_AUDIOVISUAL" />
+    <entry file="file://$PROJECT_DIR$/../PARTICIPA_2018_05_15_21_05_45.txt" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/view/MULTI" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PERSONA" />
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/PARTICIPA" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dfcf1cd7-e498-4ea7-8090-7fe6775f2b98/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3ca5e0b4-5f84-4733-a9dc-5f0492f045ba/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/GENERO" />
+    <entry file="das://3ca5e0b4-5f84-4733-a9dc-5f0492f045ba/schema/miniFlights/table/planes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ca5e0b4-5f84-4733-a9dc-5f0492f045ba/schema/miniFlights/table/airports">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ca5e0b4-5f84-4733-a9dc-5f0492f045ba/schema/miniFlights/table/carriers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ca5e0b4-5f84-4733-a9dc-5f0492f045ba/schema/miniFlights/table/cancellation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3ca5e0b4-5f84-4733-a9dc-5f0492f045ba/schema/miniFlights/table/flights200810">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/COMPANIA">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/CANCELACION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/AVION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/VUELO">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6b863ba6-9b39-43b6-b86f-907817e5b0c5/schema/A735576/table/AEROPUERTO">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b863ba6-9b39-43b6-b86f-907817e5b0c5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="run script">
+	<target name="crear base de datos">
+		<loadproperties srcfile="src/practica0.properties" />
+		<sql userid="${database.user}" 
+			 password="${database.password}" 
+			 url="jdbc:oracle:thin:@${database.host}:${database.port}:${database.sid}"
+			 driver="oracle.jdbc.driver.OracleDriver"
+			 onerror="continue"
+			 delimiter=";"
+		     print="true"
+			 src="sesion0_crear_bd.sql">
+			<classpath path="lib/classes12.zip" />
+		</sql>
+	</target>
+	<target name="borrar base de datos">
+		<loadproperties srcfile="src/practica0.properties" />
+		<sql userid="${database.user}" 
+			 password="${database.password}" 
+			 url="jdbc:oracle:thin:@${database.host}:${database.port}:${database.sid}"
+			 driver="oracle.jdbc.driver.OracleDriver"
+			 onerror="continue"
+			 delimiter=";"
+			 src="sesion0_borrar_bd.sql">
+			<classpath path="lib/classes12.zip" />
+		</sql>
+	</target>
+	<target name="poblar base de datos">
+		<loadproperties srcfile="src/practica0.properties" />
+		<sql userid="${database.user}" 
+			 password="${database.password}" 
+			 url="jdbc:oracle:thin:@${database.host}:${database.port}:${database.sid}"
+			 driver="oracle.jdbc.driver.OracleDriver"
+			 onerror="continue"
+			 src="sesion0_poblar.sql">
+			<classpath path="lib/classes12.zip" />
+		</sql>
+	</target>
+	<target name="sentencias de ejemplo">
+		<loadproperties srcfile="src/practica0.properties" />
+		<sql userid="${database.user}" 
+			 password="${database.password}" 
+			 url="jdbc:oracle:thin:@${database.host}:${database.port}:${database.sid}"
+			 driver="oracle.jdbc.driver.OracleDriver"
+			 onerror="continue"
+			 print="true"
+			 src="sesion0_ejemplo.sql">
+			<classpath path="lib/classes12.zip" />
+		</sql>
+	</target>
+</project>

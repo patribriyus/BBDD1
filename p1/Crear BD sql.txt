@@ -1,0 +1,85 @@
+/* Creacion de las tablas */
+
+CREATE TABLE Estadio (
+	codigo		NUMBER PRIMARY KEY,
+	nombre		VARCHAR(40),
+	inauguracion	NUMBER(1),
+	capacidad	NUMBER(1)
+);
+
+CREATE TABLE Nom_Estadio (
+	estadio		REFERENCES Estadio(codigo),
+	nombre		VARCHAR(40),
+	CONSTRAINT 	Nom_Estadio_PK PRIMARY KEY (estadio,nombre)
+);
+
+CREATE TABLE Equipo (
+	codigo		NUMBER PRIMARY KEY,
+	nom_of		VARCHAR(40),
+	nom_corto	VARCHAR(40),
+	nom_hist	VARCHAR(40),
+	otros_nom	VARCHAR(40),
+	fundacion	NUMBER(1),
+	ciudad		VARCHAR(20)
+);
+
+CREATE TABLE Liga (
+	codigo		NUMBER PRIMARY KEY,
+	temporada	NUMBER(1),
+	nombre		VARCHAR(40),
+	num_equipos	NUMBER(1),
+	año_inicio	NUMBER(1),
+	año_fin		NUMBER(1),
+	num_jornadas	NUMBER(1)
+);
+
+CREATE TABLE Clasificacion (
+	jornada		NUMBER(1),
+	equipo		REFERENCES Equipo(codigo),
+	liga		REFERENCES Liga(codigo),
+	puntos		NUMBER(1),
+	g_favor		NUMBER(1),
+	g_contra	NUMBER(1),
+	asc_desc	VARCHAR(4),
+	va_europa	VARCHAR(2),
+	posicion	NUMBER(1),
+	CONSTRAINT 	Clasificacion_PK PRIMARY KEY (ini_jornada, fin_jornada, equipo, liga)
+);
+
+CREATE TABLE Partidos (
+	equipo_visit	REFERENCES Equipo(codigo),
+	equipo_local	REFERENCES Equipo(codigo),
+	liga		REFERENCES Liga(codigo),
+	jornada		NUMBER(1),
+	estadio		REFERENCES Estadio(codigo),
+	g_local		NUMBER(1),
+	g_visit		NUMBER(1),
+	CONSTRAINT	Partidos_PK PRIMARY KEY (equipo_visit, equipo_local, liga, ini_jornada, fin_jornada)
+);
+
+CREATE TABLE Juega_en (
+	equipo		REFERENCES Equipo(codigo),
+	año_inicio	NUMBER(1),
+	año_fin		NUMBER(1),
+	estadio		REFERENCES Estadio(codigo),
+	CONSTRAINT	Juega_en_PK PRIMARY KEY (equipo, año_inicio, año_fin)
+);
+
+CREATE TABLE Participantes (
+	liga		REFERENCES Liga(codigo),
+	equipo		REFERENCES Equipo(codigo),
+	division	NUMBER(1),
+	CONSTRAINT	Participantes_PK PRIMARY KEY (liga, equipo)
+);
+
+
+/* Permisos a usuarios */
+
+GRANT SELECT, INSERT ON Nom_Estadio TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Participantes TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Estadio TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Equipo TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Liga TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Clasificacion TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Partidos TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON Juega_en TO PUBLIC;
